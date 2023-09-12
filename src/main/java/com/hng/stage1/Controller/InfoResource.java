@@ -20,7 +20,7 @@ public class InfoResource {
 
     @GetMapping
     public ResponseEntity<?> getTrackInformation(@RequestParam("track") String track,
-                                                 @RequestParam("slack-name") String slack_name){
+                                                 @RequestParam("slack_name") String slack_name){
         try{
             Response response=infoService.getInfo(track,slack_name);
             return new ResponseEntity<>(response, HttpStatus.OK);
