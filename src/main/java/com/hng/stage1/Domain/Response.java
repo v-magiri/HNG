@@ -1,49 +1,48 @@
 package com.hng.stage1.Domain;
 
 public class Response {
-    private String slackName;
-    private String currentDay;
-    private String currentUTCTime;
+    private String slack_name;
+    private String current_day;
+    private String utc_time;
     private String track;
-    private int statusCode;
-    private String githubFileUrl;
-    private String githubRepoUrl;
+    private int status_code;
+    private String github_file_url;
+    private String github_repo_url;
 
     public Response(String slackName, String currentDay, String currentUTCTime,
                     String track,String githubFileUrl,
                     String githubRepoUrl, int statusCode) {
-        this.slackName = slackName;
-        this.currentDay = currentDay;
-        this.currentUTCTime = currentUTCTime;
+        this.slack_name = slackName;
+        this.current_day = currentDay;
+        this.utc_time = currentUTCTime;
         this.track = track;
-        this.githubFileUrl = githubFileUrl;
-        this.githubRepoUrl = githubRepoUrl;
-        this.statusCode = statusCode;
-
+        this.github_file_url = githubFileUrl;
+        this.github_repo_url = githubRepoUrl;
+        this.status_code = statusCode;
     }
 
-    public String getSlackName() {
-        return slackName;
+    public String getSlack_name() {
+        return slack_name;
     }
 
-    public void setSlackName(String slackName) {
-        this.slackName = slackName;
+    public void setSlack_name(String slack_name) {
+        this.slack_name = slack_name;
     }
 
-    public String getCurrentDay() {
-        return currentDay;
+    public String getCurrent_day() {
+        return current_day;
     }
 
-    public void setCurrentDay(String currentDay) {
-        this.currentDay = currentDay;
+    public void setCurrent_day(String current_day) {
+        this.current_day = current_day;
     }
 
-    public String getCurrentUTCTime() {
-        return currentUTCTime;
+    public String getUtc_time() {
+        return utc_time;
     }
 
-    public void setCurrentUTCTime(String currentUTCTime) {
-        this.currentUTCTime = currentUTCTime;
+    public void setUtc_time(String utc_time) {
+        this.utc_time = utc_time;
     }
 
     public String getTrack() {
@@ -54,27 +53,27 @@ public class Response {
         this.track = track;
     }
 
-    public int getStatusCode() {
-        return statusCode;
+    public int getStatus_code() {
+        return status_code;
     }
 
-    public void setStatusCode(int statusCode) {
-        this.statusCode = statusCode;
+    public void setStatus_code(int status_code) {
+        this.status_code = status_code;
     }
 
-    public String getGithubFileUrl() {
-        return githubFileUrl;
+    public String getGithub_file_url() {
+        return github_file_url;
     }
 
-    public void setGithubFileUrl(String githubFileUrl) {
-        this.githubFileUrl = githubFileUrl;
+    public void setGithub_file_url(String github_file_url) {
+        this.github_file_url = github_file_url;
     }
 
-    public String getGithubRepoUrl() {
-        return githubRepoUrl;
+    public String getGithub_repo_url() {
+        return github_repo_url;
     }
 
-    public void setGithubRepoUrl(String githubRepoUrl) {
-        this.githubRepoUrl = githubRepoUrl;
+    public void setGithub_repo_url(String github_repo_url) {
+        this.github_repo_url = github_repo_url;
     }
 }
