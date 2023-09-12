@@ -1,0 +1,5 @@
+com/hng/stage1/Service/InfoService.class
+com/hng/stage1/Stage1Application.class
+com/hng/stage1/Controller/InfoResource.class
+com/hng/stage1/Domain/Constants.class
+com/hng/stage1/Domain/Response.class
